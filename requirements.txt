@@ -9,3 +9,4 @@ GoogleNews
 chromadb
 google 
 datetime
+sqlite3 >= 3.35.0
