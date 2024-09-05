@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Constants
 flag=0
-GOOGLE_API_KEY=""  # Replace with your actual API key
+GOOGLE_API_KEY="AIzaSyAwlfiHJXlS-vSJ7_2TrEdyW-dDNnQ7oG4"  # Replace with your actual API key
 persist_directory = "./chroma_db"
 
 # Initialize Google Generative AI Embeddings
