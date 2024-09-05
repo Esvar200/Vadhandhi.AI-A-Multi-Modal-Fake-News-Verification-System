@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import datetime, timedelta
 from GoogleNews import GoogleNews
 from langchain.docstore.document import Document
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 from verify import verify_news
