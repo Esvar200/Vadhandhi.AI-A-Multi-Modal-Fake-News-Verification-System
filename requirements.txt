@@ -9,4 +9,4 @@ GoogleNews
 chromadb
 google 
 datetime
-pysqlite3 
+pysqlite3-binary 
