@@ -2,7 +2,7 @@ langchain
 langchain_google_genai 
 streamlit 
 SpeechRecognition 
-PIL 
+pillow
 easyocr 
 GoogleNews 
 google 
