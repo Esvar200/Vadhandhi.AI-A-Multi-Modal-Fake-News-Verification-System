@@ -6,6 +6,6 @@ SpeechRecognition
 pillow
 easyocr 
 GoogleNews 
-chroma
+chromadb
 google 
 datetime
