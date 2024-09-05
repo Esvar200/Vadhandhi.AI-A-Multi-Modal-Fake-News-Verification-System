@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Constants
 flag=0
-GOOGLE_API_KEY="AIzaSyAwlfiHJXlS-vSJ7_2TrEdyW-dDNnQ7oG4"  # Replace with your actual API key
+GOOGLE_API_KEY="AIzaSyBHgdZdQum7wAgaRken9QfZX5bbMQ2knFM"  # Replace with your actual API key
 persist_directory = "./chroma_db"
 
 # Initialize Google Generative AI Embeddings
@@ -26,7 +26,7 @@ def verify_news(news_text):
 
     # Initialize LLM
     llm = ChatGoogleGenerativeAI(
-        model="gemini-pro",
+        model="gemini-1.5-flash-latest",
         temperature=0.3, top_p=0.85,
         google_api_key=GOOGLE_API_KEY
     )
