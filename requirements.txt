@@ -1,0 +1,9 @@
+langchain 
+langchain_google_genai 
+streamlit 
+speech_recognition 
+PIL 
+easyocr 
+GoogleNews 
+google 
+datetime
