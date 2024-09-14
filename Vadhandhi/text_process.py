@@ -7,7 +7,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 from verify import verify_news
 
-GOOGLE_API_KEY="AIzaSyAwlfiHJXlS-vSJ7_2TrEdyW-dDNnQ7oG4"  # Replace with your actual API key
+GOOGLE_API_KEY=""  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash-latest")
 persist_directory = "./chroma_db"
