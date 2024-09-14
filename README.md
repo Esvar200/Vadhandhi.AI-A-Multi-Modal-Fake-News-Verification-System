@@ -33,7 +33,7 @@
 
 3. **Run the Main Application**:
     ```bash
-    python app.py
+    streamlit run app.py
     ```
 
 4. **Follow the On-Screen Instructions**:
